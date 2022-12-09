@@ -1,0 +1,367 @@
+:root {
+  --transparent-yellow: rgb(255 255 0 / 34%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+a {
+  text-decoration: none;
+}
+section {
+  padding: 100px 200px;
+}
+.s-icons a {
+  color: white;
+  font-size: 1.7em;
+  padding-right: 30px;
+}
+.s-icons .ws:hover {
+  color: rgb(0, 255, 0);
+}
+.s-icons .fc:hover {
+  color: rgb(82, 82, 255);
+}
+.s-icons .ins:hover {
+  color: rgb(225, 255, 0);
+}
+.s-icons .tel:hover {
+  color: rgb(0, 0, 221);
+}
+.s-icons .snp:hover {
+  color: rgb(255, 255, 0);
+}
+
+header {
+  background-color: rgb(255, 255, 210);
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 130px;
+  padding-left: 180px;
+}
+header .logo {
+  text-decoration: none;
+  color: rgba(255, 0, 0, 0.7);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+header .i {
+  display: none;
+}
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+header ul li a {
+  padding: 10px 35px;
+  border-radius: 20px;
+  transition: 0.5s;
+  margin: 10px 0;
+}
+header ul a {
+  color: rgb(245, 20, 20);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;
+  padding-left: 30px;
+}
+header ul a:hover {
+  color: rgb(220, 0, 0);
+  background-color: rgb(212, 212, 158);
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url(files/photo4.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.main h2 {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+.main h2 span {
+  display: inline-block;
+  margin-top: 10px;
+  color: rgb(255, 255, 0);
+  font-size: 3em;
+  font-weight: 600;
+}
+.main h3 {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.main .m-botten {
+  color: white;
+  background-color: rgba(255, 255, 0, 0.712);
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  transition: 0.5s ease;
+}
+.main .m-botten:hover {
+  background-color: rgba(172, 172, 0, 0.712);
+  transform: scale(1.1);
+  border-radius: 30px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: rgb(235, 235, 0);
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: white;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.15);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.icon {
+  color: gold;
+  font-size: 8em;
+  text-align: center;
+}
+.icon:hover {
+  color: rgba(0, 255, 0, 1);
+}
+.info {
+  text-align: center;
+}
+.info h3 {
+  color: gold;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+.projects {
+  background-color: rgb(200, 0, 0);
+}
+.projects .content {
+  margin-top: 30px;
+}
+.p-card {
+  background-color: white;
+  border: 1px solid #fff;
+  min-height: 14px;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+.p-card:hover {
+  transform: scale(1.1);
+}
+.p-card:hover .p-img {
+  opacity: 0.9;
+}
+.p-img img {
+  width: 100%;
+}
+.p-info {
+  padding: 1em;
+}
+.p-category {
+  font-size: 0.8em;
+  color: black;
+}
+.p-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.more-data {
+  text-decoration: none;
+  color: gold;
+}
+.more-data:hover {
+  color: rgb(231, 197, 0);
+}
+.contact .icon {
+  font-size: 4.5em;
+}
+.contact .info h3 {
+  color: black;
+}
+.contact .info p {
+  font-size: 1.5em;
+}
+.footer {
+  background-color: rgb(153, 0, 0);
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 2.5em;
+  padding-left: 2.5em;
+  display: flex;
+  justify-content: space-between;
+}
+.f-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.f-title span {
+  color: rgb(0, 0, 255);
+}
+.footer .s-icons a {
+  font-size: 1.3em;
+  padding: 0 12px 0 0;
+}
+.mail {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+.mail:hover {
+  color: red;
+  font-size: 1.08em;
+}
+::selection {
+  background-color: rgb(176, 199, 0);
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1023px) {
+  body {
+    overflow-x: hidden; 
+  }
+  header {
+    padding: 12px 20px;
+  }
+  ul {
+    padding-left: 10px;
+  }
+  .title {
+    font-size: 1.8em;
+  }
+  section {
+    padding: 80px 20px;
+  }
+  .main-content h2 {
+    font-size: 1em;
+  }
+  .main-content h3 {
+    font-size: 1.6em;
+  }
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mail {
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+    padding: 2px 7px;
+    font-size: 1.1em;
+  }
+}
+@media (max-width: 641px) {
+  body {
+    font-size: 12px;
+  }
+  .main-content h2 {
+    font-size: 0.8px;
+  }
+  .main-content h3 {
+    font-size: 1.4px;
+  }
+}
+@media (max-width: 300px) {
+  body {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /*medium sizes and bigger*/
+  .card {
+    width: 21.25em;
+  }
+  .p-card {
+    min-height: 14px;
+    width: 23em;
+  }
+  .main {
+    padding-left: 6em;
+  }
+}
+@media (max-width: 575px) {
+  /*Extra small Sizes and smaller*/
+  header {
+    padding: 8px 40px;
+  }
+  .i {
+    display: block;
+    left: 5px;
+  }
+  ul {
+    display: none;
+  }
+  ul a {
+    position: relative;
+    display: inline;
+    width: 100%;
+    text-align: right;
+  }
+  .card {
+    width: 20em;
+  }
+  .p-card {
+    width: 18em;
+    min-height: 12px;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
