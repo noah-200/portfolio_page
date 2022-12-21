@@ -249,7 +249,7 @@ header ul a:hover {
   font-size: 1.3em;
   font-weight: 600;
 }
-.f-title span {
+.f-title a {
   color: rgb(0, 0, 255);
 }
 .footer .s-icons a {
